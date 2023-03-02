@@ -22,10 +22,10 @@ body {
     background-color: #004643;
 }
 
-.header-logo {
+.header-logo img {
     margin-right: auto;
-    width: 80px;
-    height: 80px;
+    width: 20%;
+    height: 20%;
 }
 
 .header-link {
@@ -36,6 +36,9 @@ body {
 
 .header-link a {
     text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: bolder;
     font-size: 18px;
     padding: 10px;
 }
